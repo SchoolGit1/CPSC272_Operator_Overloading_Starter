@@ -40,8 +40,8 @@ int main() {
         std::cout << "Account b has more money" << std::endl;
 
     // Creates two ServiceAccount objects with different balances
-    ServiceAccount c("1234", "passw", 700.00);
-    ServiceAccount d("4321", "passw", 500.00);
+    ServiceAccount c("2460", "chair", 1000.00);
+    ServiceAccount d("1113", "blimp", 1.00);
 
     //Tests c and d balances with the less than operator to determine which has less money
     if (c < d)
