@@ -1,6 +1,6 @@
 //
-// Created by Christopher Vaughn
-// Date: 9/15/25
+// Created by Colin Guevara
+// Date: 9/22/25
 //Project: 272 Forking & Overloading Exercise
 //
 #include <iostream>
@@ -38,6 +38,17 @@ int main() {
         std::cout << "Account a has more money" << std::endl;
     else
         std::cout << "Account b has more money" << std::endl;
+
+    // Creates two ServiceAccount objects with different balances
+    ServiceAccount c("1234", "passw", 700.00);
+    ServiceAccount d("4321", "passw", 500.00);
+
+    //Tests c and d balances with the less than operator to determine which has less money
+    if (c < d)
+        std::cout << "Account c has less money" << std::endl;
+    else
+        std::cout << "Account d has less money" << std::endl;
+
     
     return 0;  // Indicate successful program execution
 }

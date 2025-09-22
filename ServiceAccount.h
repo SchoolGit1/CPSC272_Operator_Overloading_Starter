@@ -1,7 +1,7 @@
 //
-// Created by Christopher Vaughn
-// Date: 9/15/25
-// Project: 272 Forking & Overloading Exercise
+// Created by Colin Guevara
+// Date: 9/22/25
+//Project: 272 Forking & Overloading Exercise
 //
 
 #ifndef CPSC272_OPERATOR_OVERLOADING_STARTER_SERVICEACCOUNT_H
@@ -95,4 +95,5 @@ bool operator==(const ServiceAccount&, const ServiceAccount&);
  */
 bool operator>(const ServiceAccount&, const ServiceAccount&);
 
+bool operator<(const ServiceAccount&, const ServiceAccount&);
 #endif //CPSC272_OPERATOR_OVERLOADING_STARTER_SERVICEACCOUNT_H
